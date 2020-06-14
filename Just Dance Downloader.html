@@ -1,0 +1,20 @@
+<html>
+
+<script>
+    // replace codename for the codename of your song
+    let codename = 'GiddyOnUp';
+    // change the extension for . json if you want to download a json 
+    // change the extensio for .zip if you want bundles gives music
+    let file_extension = '.zip'
+    
+    if(file_extension != '.json'){
+        window.open('http://jdnowweb-s.cdn.ubi.com/uat/release_tu2/20150928_1740/dist/bundle/' + codename + file_extension) 
+    }else{
+        window.open('http://jdnowweb-s.cdn.ubi.com/uat/release_tu2/20150928_1740/songs/' + codename + '/' + codename + file_extension)
+    };
+      
+
+</script>
+
+
+</html>
